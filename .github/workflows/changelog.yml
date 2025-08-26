@@ -2,7 +2,7 @@ name: Generate CHANGELOG.md
 on:
   pull_request_target:
     branches:
-      - master
+      - main
     types:
       - closed
 
@@ -20,4 +20,4 @@ jobs:
         with:
           add: CHANGELOG.md
           message: "chore: Update CHANGELOG.md"
-          branch: master
+          branch: main
