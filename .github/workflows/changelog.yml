@@ -4,7 +4,7 @@ on:
     branches:
       - main
     types:
-      - closed
+      - published
 
 jobs:
   generate:
