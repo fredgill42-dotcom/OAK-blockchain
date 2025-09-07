@@ -10,7 +10,7 @@
             "name": "Debug unit tests in library 'node-cli'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--lib",
                     "--package=node-cli"
@@ -47,7 +47,7 @@
             "name": "Debug unit tests in executable 'oak'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--bin=oak",
                     "--package=node-cli"
@@ -66,14 +66,14 @@
             "name": "Debug integration test 'telemetry'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=telemetry",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "telemetry",
-                    "kind": "test"
+                    "kind": "mainnet"
                 }
             },
             "args": [],
@@ -85,14 +85,14 @@
             "name": "Debug integration test 'websocket_server'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=websocket_server",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "websocket_server",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -104,14 +104,14 @@
             "name": "Debug integration test 'export_import_flow'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=export_import_flow",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "export_import_flow",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -123,14 +123,14 @@
             "name": "Debug integration test 'check_block_works'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=check_block_works",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "check_block_works",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -142,14 +142,14 @@
             "name": "Debug integration test 'build_spec_works'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=build_spec_works",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "build_spec_works",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -161,14 +161,14 @@
             "name": "Debug integration test 'version'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=version",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "version",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -180,14 +180,14 @@
             "name": "Debug integration test 'running_the_node_and_interrupt'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=running_the_node_and_interrupt",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "running_the_node_and_interrupt",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -199,14 +199,14 @@
             "name": "Debug integration test 'purge_chain_works'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=purge_chain_works",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "purge_chain_works",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -218,14 +218,14 @@
             "name": "Debug integration test 'inspect_works'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=inspect_works",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "inspect_works",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -237,14 +237,14 @@
             "name": "Debug integration test 'temp_base_path_works'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=temp_base_path_works",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "temp_base_path_works",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -256,14 +256,14 @@
             "name": "Debug integration test 'common'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=common",
                     "--package=node-cli"
                 ],
                 "filter": {
                     "name": "common",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -275,7 +275,7 @@
             "name": "Debug unit tests in library 'node-executor'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--lib",
                     "--package=node-executor"
@@ -294,14 +294,14 @@
             "name": "Debug integration test 'fees'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=fees",
                     "--package=node-executor"
                 ],
                 "filter": {
                     "name": "fees",
-                    "kind": "test"
+                    "kind": "mainnet"
                 }
             },
             "args": [],
@@ -313,14 +313,14 @@
             "name": "Debug integration test 'submit_transaction'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--test=submit_transaction",
                     "--package=node-executor"
                 ],
                 "filter": {
                     "name": "submit_transaction",
-                    "kind": "test"
+                    "kind": "main"
                 }
             },
             "args": [],
@@ -332,14 +332,14 @@
             "name": "Debug integration test 'basic'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
-                    "--test=basic",
+                    "--mainnet=basic",
                     "--package=node-executor"
                 ],
                 "filter": {
                     "name": "basic",
-                    "kind": "test"
+                    "kind": "mainnet"
                 }
             },
             "args": [],
@@ -351,14 +351,14 @@
             "name": "Debug integration test 'common'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
-                    "--test=common",
+                    "--mainnet=common",
                     "--package=node-executor"
                 ],
                 "filter": {
                     "name": "common",
-                    "kind": "test"
+                    "kind": "mainnet"
                 }
             },
             "args": [],
@@ -370,7 +370,7 @@
             "name": "Debug benchmark 'bench'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--bench=bench",
                     "--package=node-executor"
@@ -389,7 +389,7 @@
             "name": "Debug unit tests in library 'node-runtime'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--lib",
                     "--package=node-runtime"
@@ -408,7 +408,7 @@
             "name": "Debug unit tests in library 'pallet-quadratic-funding'",
             "cargo": {
                 "args": [
-                    "test",
+                    "mainnet",
                     "--no-run",
                     "--lib",
                     "--package=pallet-quadratic-funding"
